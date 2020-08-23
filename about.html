@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alabo Excel</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <a href="./index.html">
+                <li>
+                    home
+                </li>
+            </a>
+            <a href="./about.html">
+                <li>
+                    about me
+                </li>
+            </a>
+            <a href="./contact.html">
+                <li>
+                    let's talk
+                </li>
+            </a>
+            <a href="./articles.html">
+                <li>
+                    articles
+                </li>
+            </a>
+        </ul>
+    </header>
+
+
+    <div id="hero-container" class="">
+
+        <div class="row">
+
+            <div class="col-lg-5 col-sm-12 p-5 ml-lg-5 first">
+                <p>
+                    I'm a Front-End web developer and Technical writer based in Nigeria, working with different web technologies to achieve awesome results while following best practices applicable. I'm capable of learning and working with new technologies swiftly.
+                </p>
+                <p>And also writing technical articles that help upcoming developers like myself solve overcome challengies that i have.</p>
+                <p>I dislike boring websites wich have been the reason i put in the very best to make my web pages look as awesome as it ought to. </p>
+                <p>
+                    Outside being a techie, I hangout with few friends, watch movies cartoons preferably, over feed and sleep and try not to be an introvert in reality while being a bit social on social media, 😊.
+                </p>
+            </div>
+
+            <div class="col-lg-6 col-sm-12 p-5">
+                <img id="hero" src="./img/hero.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="pt-5">2020 Designed by Alabo Excel</div>
+    </footer>
+
+    <style>
+        #hero {
+            position: relative;
+            left: -100px;
+            margin-top: 30px;
+        }
+        
+        .first {
+            margin-left: 100px!important;
+        }
+        
+        @media (max-width: 400px) {
+            .first {
+                margin-left: 0px!important;
+                order: 1;
+            }
+            #hero {
+                position: relative;
+                left: -0px;
+                margin-top: 0px;
+                order: 0;
+            }
+        }
+    </style>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
