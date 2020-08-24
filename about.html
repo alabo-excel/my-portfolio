@@ -7,6 +7,31 @@
     <title>Alabo Excel</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <style>
+        #hero {
+            position: relative;
+            left: -100px;
+            margin-top: 30px;
+        }
+        
+        .first {
+            margin-left: 100px!important;
+        }
+        
+        @media(max-width: 400px) {
+            .first {
+                margin-left: 10px!important;
+                order: 1;
+            }
+            #hero {
+                position: relative;
+                left: -0px;
+                margin-top: 0px;
+                order: 0;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -31,6 +56,12 @@
                 <a href="./articles.html">
                     <li>
                         articles
+                    </li>
+                </a>
+
+                <a href="./project.html">
+                    <li>
+                        projects
                     </li>
                 </a>
             </ul>
@@ -63,6 +94,12 @@
                     articles
                 </li>
             </a>
+
+            <a href="./project.html">
+                <li>
+                    projects
+                </li>
+            </a>
         </ul>
     </div>
 
@@ -91,30 +128,6 @@
         <div class="pt-5">2020 Designed by Alabo Excel</div>
     </footer>
 
-    <style>
-        #hero {
-            position: relative;
-            left: -100px;
-            margin-top: 30px;
-        }
-        
-        .first {
-            margin-left: 100px!important;
-        }
-        
-        @media (max-width: 400px) {
-            .first {
-                margin-left: 10px!important;
-                order: 1;
-            }
-            #hero {
-                position: relative;
-                left: -0px;
-                margin-top: 0px;
-                order: 0;
-            }
-        }
-    </style>
 
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.min.js"></script>

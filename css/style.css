@@ -11,6 +11,7 @@
         overflow-x: hidden;
         font-size: 20px!important;
         font-family: 'Roboto'!important;
+        max-width: 95%!important;
     }
     
     body::-webkit-scrollbar {
@@ -30,6 +31,12 @@
         display: inline;
         list-style-type: none;
         padding: 25px;
+        border: 1px solid rgb(31, 76, 139)!important;
+        margin: 15px;
+    }
+    
+    header ul li:hover {
+        background-color: rgb(31, 76, 139)!important;
     }
     
     .light-mode {
@@ -40,7 +47,7 @@
     header {
         text-align: center;
         text-transform: capitalize;
-        padding-top: 20px;
+        margin-top: 30px;
         justify-content: space-evenly;
         display: flex!important;
     }
@@ -79,6 +86,10 @@
         text-align: center;
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+    
+    #about:hover {
+        color: hsl(218, 28%, 13%) !important;
     }
     
     #social {
@@ -124,12 +135,21 @@
     #name {
         display: none;
     }
+    
+    .card {
+        background-color: hsl(218, 28%, 13%) !important;
+        border-color: rgb(31, 76, 139)!important;
+    }
+    
+    .card h1 {
+        text-transform: capitalize;
+    }
     /* 
 p {
     font-size: 25px;
 } */
     
-    @media (max-width:400px) {
+    @media (max-width: 400px) {
         header ul li {
             padding: 5px;
         }
@@ -157,10 +177,17 @@ p {
             flex-direction: column;
             padding: 30px;
             font-weight: 700;
+            margin-top: 5px;
+        }
+        #header-mobile ul li:active {
+            border: 1px solid rgb(31, 76, 139)!important;
         }
         #header-mobile ul {
             margin-top: 30px;
             text-transform: capitalize;
             text-align: center;
+        }
+        .blog__post {
+            width: 100%;
         }
     }
