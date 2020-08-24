@@ -11,6 +11,37 @@
 
 <body>
     <header>
+        <div id="header">
+            <ul>
+                <a href="./index.html">
+                    <li>
+                        home
+                    </li>
+                </a>
+                <a href="./about.html">
+                    <li>
+                        about me
+                    </li>
+                </a>
+                <a href="./contact.html">
+                    <li>
+                        let's talk
+                    </li>
+                </a>
+                <a href="./articles.html">
+                    <li>
+                        articles
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <h1 id="name">Alabo Excel</h1>
+        <img id="bars" src="./img/icon-hamburger.svg" alt="">
+        <!-- <img id="toggle" src="./img/lightbulb.svg" alt=""> -->
+
+
+    </header>
+    <div id="header-mobile">
         <ul>
             <a href="./index.html">
                 <li>
@@ -33,7 +64,7 @@
                 </li>
             </a>
         </ul>
-    </header>
+    </div>
 
     <div class="row m-lg-5 p-lg-5">
         <div class="col-lg-6 col-sm-12 p-4">
@@ -53,7 +84,9 @@
             <input type="email" placeholder="Email Address">
             <input type="number" placeholder="Phone Number">
             <textarea name="" id="" rows="5"></textarea>
-            <input id="btn" type="submit" value="Send">
+            <a href="mailto:alaboexcel@gmail.com">
+                <input id="btn" type="submit" value="Send">
+            </a>
         </div>
     </div>
 
@@ -65,6 +98,7 @@
 
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

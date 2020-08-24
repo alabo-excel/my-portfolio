@@ -11,6 +11,37 @@
 
 <body>
     <header>
+        <div id="header">
+            <ul>
+                <a href="./index.html">
+                    <li>
+                        home
+                    </li>
+                </a>
+                <a href="./about.html">
+                    <li>
+                        about me
+                    </li>
+                </a>
+                <a href="./contact.html">
+                    <li>
+                        let's talk
+                    </li>
+                </a>
+                <a href="./articles.html">
+                    <li>
+                        articles
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <h1 id="name">Alabo Excel</h1>
+        <img id="bars" src="./img/icon-hamburger.svg" alt="">
+        <!-- <img id="toggle" src="./img/lightbulb.svg" alt=""> -->
+
+
+    </header>
+    <div id="header-mobile">
         <ul>
             <a href="./index.html">
                 <li>
@@ -33,14 +64,13 @@
                 </li>
             </a>
         </ul>
-    </header>
-
+    </div>
 
     <div id="hero-container" class="">
 
         <div class="row">
 
-            <div class="col-lg-5 col-sm-12 p-5 ml-lg-5 first">
+            <div class="col-lg-5 col-sm-12 p-3 ml-lg-5 first">
                 <p>
                     I'm a Front-End web developer and Technical writer based in Nigeria, working with different web technologies to achieve awesome results while following best practices applicable. I'm capable of learning and working with new technologies swiftly.
                 </p>
@@ -74,7 +104,7 @@
         
         @media (max-width: 400px) {
             .first {
-                margin-left: 0px!important;
+                margin-left: 10px!important;
                 order: 1;
             }
             #hero {
@@ -88,6 +118,7 @@
 
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

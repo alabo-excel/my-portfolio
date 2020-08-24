@@ -11,6 +11,37 @@
 
 <body>
     <header>
+        <div id="header">
+            <ul>
+                <a href="./index.html">
+                    <li>
+                        home
+                    </li>
+                </a>
+                <a href="./about.html">
+                    <li>
+                        about me
+                    </li>
+                </a>
+                <a href="./contact.html">
+                    <li>
+                        let's talk
+                    </li>
+                </a>
+                <a href="./articles.html">
+                    <li>
+                        articles
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <h1 id="name">Alabo Excel</h1>
+        <img id="bars" src="./img/icon-hamburger.svg" alt="">
+        <!-- <img id="toggle" src="./img/lightbulb.svg" alt=""> -->
+
+
+    </header>
+    <div id="header-mobile">
         <ul>
             <a href="./index.html">
                 <li>
@@ -33,18 +64,50 @@
                 </li>
             </a>
         </ul>
-    </header>
+    </div>
 
-    <h1>Loading.....</h1>
+    <div class="d-flex justify-content-center m-auto">
+        <section id="blog" class="blog">
+            <div class="blog__header">
+                <h2>My Articles</h2>
+            </div>
+            <ul class="blog__slider">
+            </ul>
+            <ul class="blog__counter">
+                <li class="blog__counterItem blog__counterItem-active"></li>
+                <li class="blog__counterItem"></li>
+                <li class="blog__counterItem"></li>
+            </ul>
+        </section>
+    </div>
 
     <footer>
         <div class="pt-5">2020 Designed by Alabo Excel</div>
     </footer>
 
+    <style>
+        img {
+            width: 100%;
+        }
+        
+        .blog__post {
+            width: 100%;
+        }
+        
+        .blog__info {
+            display: none;
+        }
+        
+        .blog__slider {
+            margin: auto;
+        }
+    </style>
 
 
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/articles.js"></script>
 </body>
 
 </html>
